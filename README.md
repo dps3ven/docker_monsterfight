@@ -18,11 +18,13 @@ Sometimes unexpected death occurs - just an fyi.
 ```
 Usage
 ```bash
+cd monster_fight
 python3 app/monster_fight.py
 
 ```
 Containerization
 ```bash
+cd monster_fight
 docker build -t <custom_image_name>:<tag> .
 docker run -it ---name <custom_app_name> <custom_image_name>:<tag>
 
