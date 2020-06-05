@@ -13,7 +13,7 @@ def check_inventory():
 
 def check_health():
 	print("\n")
-	print("My health level is:"), health[0])
+	print(("My health level is:"), health[0])
 	
 def help():
 	print("\n")
